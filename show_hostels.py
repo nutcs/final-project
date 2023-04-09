@@ -167,12 +167,12 @@ def showTab_menubar(Frame_menu):
     Label(Frame_menu,text="30 Mar 2023").grid(row=0,column=2,sticky=W)
 
     Label(Frame_menu,text="ผู้ใหญ่ :").grid(row=0,column=3,sticky=E,padx=100)
-    people = ttk.Combobox(Frame_menu,values=['1','2','3','4','5'],width=5)
+    people = ttk.Combobox(Frame_menu,values=['1','2','3','4','5'],width=5,justify='center')
     people.current(0)
     people.grid(row=0,column=3,sticky=E,padx=20)
     
     Label(Frame_menu,text="ห้อง :").grid(row=0,column=4,sticky=W)
-    people = ttk.Combobox(Frame_menu,values=['1','2','3','4','5'],width=5)
+    people = ttk.Combobox(Frame_menu,values=['1','2','3','4','5'],width=5,justify='center')
     people.current(0)
     people.grid(row=0,column=4,sticky=W,padx=60)
 
