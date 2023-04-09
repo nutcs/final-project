@@ -1,0 +1,15 @@
+เส้นขอบต่างๆ
+https://stackoverflow.com/questions/39416021/border-for-tkinter-label
+
+scroll bar
+https://github.com/flatplanet/Intro-To-TKinter-Youtube-Course/blob/master/full_scroll.py
+
+
+
+1 = เครื่องปรับอากาศ
+2 = สระว่ายน้ำ
+3 = ร้านอาหาร
+4 = แผนกต้อนรับ 24 ชม.
+5 = ที่จอดรถ
+6 = ลิฟท์
+7 = Wifi
