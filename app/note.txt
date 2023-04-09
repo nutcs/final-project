@@ -1,4 +1,0 @@
-เส้นขอบต่างๆ
-https://stackoverflow.com/questions/39416021/border-for-tkinter-label
-
-รันแค่ไฟล์ search_frame.py นี้พอ
