@@ -1,0 +1,71 @@
+        price = Label(Frame_3,text=result[thing][3])
+        price.grid(row=0,columnspan=2,sticky=SE,padx=30)
+        Button(Frame_3,text="เลือกห้องพัก",bg='darkcyan',fg="white",command=aaaa[thing]).grid(row=1,columnspan=2,sticky=NE,padx=30,pady=10)
+
+def search(a):
+    sql = "select * from HotelData where IDHotel=?;"
+    cursor.execute(sql,[1001+a])
+    result = cursor.fetchone()
+    print(result)
+
+
+def a1():
+    print(0)
+    a=0
+    search(a)
+def a2():
+    a=1
+    search(a)
+def a3():
+    a=2
+    search(a)
+def a4():
+    a=3
+    search(a)
+def a5():
+    a=4
+    search(a)
+def a6():
+    a=5
+    search(a)
+def a7():
+    a=6
+    search(a)
+def a8():
+    a=7
+    search(a)
+def a9():
+    a=8
+    search(a)
+def a10():
+    a=9
+    search(a)
+def a11():
+    a=10
+    search(a)
+def a12():
+    a=11
+    search(a)
+def a13():
+    a=12
+    search(a)
+def a14():
+    a=13
+    search(a)
+def a15():
+    a=14
+    search(a)
+def a16():
+    a=15
+    search(a)
+def a17():
+    a=16
+    search(a)
+def a18():
+    a=17
+    search(a)
+def a19():
+    a=18
+def a20():
+    a=19
+aaaa = [a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20]
