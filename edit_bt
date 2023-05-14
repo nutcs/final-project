@@ -1,0 +1,16 @@
+momBt = Frame(showHostel_review_Frame)
+momBt.grid(row=7,columnspan=5,sticky='news',pady=18,ipady=5,)
+momBt.rowconfigure(0,weight=1)
+momBt.columnconfigure(0,weight=1)
+
+childBt = Frame(momBt)
+childBt.grid(row=0,column=0,sticky=E)
+childBt.rowconfigure(0,weight=1)
+childBt.columnconfigure((0,1,2),weight=1)
+
+Label(childBt,text=str(result[3])+' ฿',font=("Arial 20 bold")).grid(row=0,column=0)
+# Label(Frame_service,text=str(result[3])+' ฿',font=("Arial 20 bold")).grid(row=3,column=3,sticky=E,ipady=5)
+#button ปุ่มเข้าเลือกห้องพัก
+
+Button(childBt,text='จองห้องพัก',bg='#FF5E1F',fg="white",command=check_outNut).grid(row=0,column=1,padx=15)
+Button(childBt,image=img4,bg='#FF5E1F',command=treeview0).grid(row=0,column=2)
